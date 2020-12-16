@@ -1,0 +1,145 @@
+header {
+  position: relative;
+}
+.shopping-mall {
+  margin-top: auto;
+  font-variant: small-caps;
+}
+.top{
+  float: right;
+}
+.shopping-mall>h1 {
+  font-family: Impact;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 0.3px;
+  text-shadow: 0 0 2px black;
+  padding-bottom: 0px;
+  border-bottom: 1px dotted gray;
+  margin: 0px;
+  width: 49%;
+}
+.shopping-mall>h5 {
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+  font-size: small;
+}
+
+.poly-cart{
+  margin-top: 5px;
+}
+.poly-cart ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-variant: small-caps;
+}
+.poly-cart .panel-heading strong {
+  font-variant: small-caps;
+  font-size: larger;
+  text-shadow: 0 0 2px darkgray;
+}
+.poly-prod{
+  text-align:center;
+  padding:5px;
+}
+.poly-prod .panel-body img{
+  height: 150px;
+  max-width: 95%;
+}
+.card-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+a.list-group-item, button.list-group-item {
+  color: #555;
+}
+
+.title {
+  width: 100%;
+  text-transform: uppercase;
+  margin: 5px 10px;
+}
+
+.book {
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.card-book {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.row-image {
+  height: 300px;
+  width: 100px;
+  border-color: forestgreen;
+}
+
+.book-title {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 1.5em;
+  border-bottom: 1px dotted lightgray;
+}
+
+.tung {
+  margin: 15px 15px 15px 15px;
+}
+
+.log-out {
+  margin-left: 7px;
+}
+
+.amazon {
+  width: 300px;
+}
+
+.img-thumbnail {
+  margin-right: 10px;
+}
+
+.col-md-2 {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.related-book {
+  margin-left: 35px;
+  margin-top: 50px;
+  font-size: 1.5em;
+  border-bottom: 1px dotted lightgray;
+}
+
+.row-book {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.book-detail-info {
+  list-style: none;
+
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.1em;
+
+}
+
+.feature-author {
+  font-style: italic;
+
+}
+

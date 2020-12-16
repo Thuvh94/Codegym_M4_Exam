@@ -1,0 +1,34 @@
+
+body {
+  margin: 0;
+}
+
+#main {
+  background: aqua;
+  height: 500px;
+  width: 70%;
+  float: left;
+}
+
+#sidebar {
+  background: burlywood;
+  height: 500px;
+  width: 30%;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: burlywood;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.log-out {
+  margin-left: 7px;
+}
+
+
+
