@@ -3,6 +3,7 @@ package com.example.demo.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 
 @Data
 @Entity
@@ -12,8 +13,11 @@ public class City {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cityId;
     private String cityName;
+    @Min(0)
     private long area;
+    @Min(0)
     private long population;
+    @Min(0)
     private long gdp;
     private String description;
     @ManyToOne

@@ -11,7 +11,7 @@
 </div>
 
 <th:block th:if="${error}">
-    <p th:text="${error}"></p>
+    <p th:text="${error}" style="color: red" align="center"></p>
 </th:block>
 <form th:action="@{/city/edit}" th:object="${city}" method="post">
     <table align="center">
@@ -51,7 +51,7 @@
         </tr>
         <tr>
             <th>Description</th>
-            <td><textarea th:field="*{description}" size="20"></textarea>
+            <td><textarea th:field="*{description}"  style="width: 400px;height: 100px"></textarea>
             <td></td>
         </tr>
         <tr>
@@ -72,7 +72,7 @@
         </tr>
 
         <tr>
-            <td colspan="2" align="center"><input type="submit" value="Create"></td>
+            <td colspan="2" align="center"><input type="submit" value="Edit"></td>
         </tr>
     </table>
 </form>
