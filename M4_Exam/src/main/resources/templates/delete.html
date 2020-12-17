@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<body>
+<h1 align="center">Are you sure?</h1>
+<div align="center">
+    <a href="/city">City list</a> &nbsp &nbsp &nbsp &nbsp
+</div>
+<!--    private String cityName;
+    private long area;
+    private long population;
+    private long gdp;
+    private String description;
+    @ManyToOne
+    private Country country;-->
+<form  th:action="@{/city/delete}" th:object="${city}" method="post">
+    <table align="center">
+        <input type="hidden" th:field="*{cityId}">
+        <tr>
+            <td>City name:</td>
+            <td th:text="${city.cityName}"></td>
+        </tr>
+        <tr>
+            <td>Area:</td>
+            <td th:text="${city.area}"></td>
+        </tr>
+        <tr>
+            <td>Population:</td>
+            <td th:text="${city.population}"></td>
+        </tr>
+        <tr>
+            <td>GDP:</td>
+            <td th:text="${city.gdp}"></td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td th:text="${city.description}"></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td th:text="${city.country.countryName}"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Delete</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
