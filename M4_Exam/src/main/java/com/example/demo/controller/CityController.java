@@ -61,7 +61,7 @@ public class CityController {
         ModelAndView modelAndView = new ModelAndView("list");
         Iterable<City> cities = cityService.findAll();
         modelAndView.addObject("cities", cities);
-        modelAndView.addObject("createMessage", "New city created successfully");
+        modelAndView.addObject("createMessage", "New city created successfully!");
         return modelAndView;
     }
 
@@ -85,7 +85,7 @@ public class CityController {
         ModelAndView modelAndView = new ModelAndView("list");
         Iterable<City> cities = cityService.findAll();
         modelAndView.addObject("cities", cities);
-        modelAndView.addObject("createMessage", "Edit city successful!");
+        modelAndView.addObject("createMessage", "Edit city successfully!");
         return modelAndView;
     }
 
@@ -103,7 +103,7 @@ public class CityController {
         ModelAndView modelAndView = new ModelAndView("list");
         Iterable<City> cities = cityService.findAll();
         modelAndView.addObject("cities", cities);
-        modelAndView.addObject("createMessage", "Delete city successful!");
+        modelAndView.addObject("createMessage", "Delete city successfully!");
         return modelAndView;
     }
 
